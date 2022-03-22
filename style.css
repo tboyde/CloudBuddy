@@ -23,6 +23,20 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.counter {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.counter {
+    text-align: center;
+    color: rgba(25, 197, 250, 0.904);
+    font-size: 17px;
+    font-weight: 500;
+}
+
 .start_btn,
 .info_box,
 .quiz_box,
