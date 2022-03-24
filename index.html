@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloud Buddy - GCP ACE Prepper</title>
+    <title>Cloud Buddy | GCP Associate Cloud Engineer Prep</title>
     <link rel="stylesheet" href="style.css">
     <!-- FontAweome CDN Link for Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -13,17 +13,16 @@
 
 <body>
     <div class="resLogo">
-        <img src="/www.cloudbuddy.com/BuddyNew_logo.png">
+        <img src="https://storage.googleapis.com/cloudbuddyapp.com/BuddyNew_Logo.png">
     </div>
     <!-- start Quiz button -->
-    <div class="start_btn">
-        <button>Start Prepping</button></div>
+    <div class="start_btn"><button>Start Quiz</button></div>
 
     <!-- Info Box -->
     <div class="info_box">
         <div class="info-title"><span>House Rules:</span></div>
         <div class="info-list">
-            <div class="info">1. You will only have <span>30 seconds</span> per question.</div>
+            <div class="info">1. You will only have <span>15 seconds</span> per question.</div>
             <div class="info">2. Once an answer is selected, it cannot be undone.</div>
             <div class="info">3. If the timer ends before you select an answer, it'll be marked as incorrect.</div>
             <div class="info">4. Once you begin the quiz, you'll be unable to exit it. </div>
@@ -41,7 +40,7 @@
             <div class="title">Google Associate Cloud Engineer Prep</div>
             <div class="timer">
                 <div class="time_left_txt">Time Left</div>
-                <div class="timer_sec">30</div>
+                <div class="timer_sec">15</div>
             </div>
             <div class="time_line"></div>
         </header>
@@ -59,7 +58,7 @@
             <div class="total_que">
                 <!-- Here I've inserted Question Count Number from JavaScript -->
             </div>
-            <button class="next_btn">Next Que</button>
+            <button class="next_btn">Next</button>
         </footer>
     </div>
 
@@ -68,7 +67,7 @@
         <div class="icon">
             <i class="fas fa-crown"></i>
         </div>
-        <div class="complete_text">You've completed the ACE Prep!</div>
+        <div class="complete_text">You've completed the Quiz!</div>
         <div class="score_text">
             <!-- Here I've inserted Score Result from JavaScript -->
         </div>
@@ -77,13 +76,16 @@
             <button class="quit">Quit Quiz</button>
         </div>
     </div>
-    
+
     <!--site/visitor counter-->
-      <div class="counter">
+    <div class="counter">
         <div class="head">Total Site Visitors:</div>
-        <div class="count">00</div>
+        <div class="count">00000s</div>
     </div>
-    
+
+    <!-- Inside this Javascript file I've created the function for the vistor counter-->
+    <script src="js/sitecounter.js"></script>
+
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->
     <script src="js/questions.js"></script>
 
